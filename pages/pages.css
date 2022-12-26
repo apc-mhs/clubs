@@ -23,6 +23,7 @@ header .bg-container{
   display:flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   
 }
 
@@ -34,15 +35,24 @@ header .bg-container img{
 
 header .banner-title{
   position: absolute;
-  top:10px;
-  margin-left: 30px;
-  text-align: center;
+  width: 100%;
+  top: 25px;
 
   text-align: center;
-    border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30px;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+header .banner-title p{
+  text-align: center;
+}
+
+header .fixed-header{
+  position: fixed;
+  top: 10px;
+  left:10px;
 }
 
 .row {
@@ -56,10 +66,14 @@ header .banner-title{
   max-width: 25%;
   padding: 0 4px;
 }
+.column p{
+  word-wrap: break-word;
+}
 
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+  border-radius: 2em;;
 }
 
 @media (max-width: 800px) {
