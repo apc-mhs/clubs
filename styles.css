@@ -25,10 +25,10 @@ header .banner-title{
   text-align: center;
 
   text-align: center;
-    border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30px;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 body {
@@ -36,133 +36,130 @@ body {
 }
 
 .link {
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-  }
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
 
 .grid {
- 
-
-    z-index: 0;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .flowers-wrap{
-    z-index: 0;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .control {
-    display: inline-flex;
-    position: relative;
-    margin: 5px;
-    cursor: pointer;
-    border-radius: 99em;
+  display: inline-flex;
+  position: relative;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 99em;
     
 }
 .control .input {
-      position: absolute;
-      opacity: 0;
-      z-index: -10;
+  position: absolute;
+  opacity: 0;
+  z-index: -10;
 }
 input[type=checkbox]{
-    opacity: 0;
+  opacity: 0;
 }
 
 .control__content {
-    width: 100%;
-    display: inline-flex;
-    align-items: center;
-    padding: 6px 12px;
-    font-family: sans-serif;
-    font-size: 24px;
-    line-height: 32px;
-    color: rgba(0, 0, 0, 1);
-    background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 99em;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 99em;
 }
     
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25);
+  cursor: pointer;
+  transition: 0.2s;
+  
+}
+  
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
 
-  .card {
-    margin: 30px auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25);
-    cursor: pointer;
-    transition: 0.2s;
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  position: relative;
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  height: 40px;
+  top: -40%;
+}
+
+.card .card_icon{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  top: -95%;
+  margin-left: 100px;
+  object-fit: cover;
+
+}
+.card .card_icon img{
+  width: inherit;
+  height: inherit;
+  border-radius: 30px;
+}
+  
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25);
     
-  }
-  
-  .card .card_image {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-  }
-  
-  .card .card_image img {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-    object-fit: cover;
-  }
-  
-  .card .card_title {
-    position: relative;
-    text-align: center;
-    border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    height: 40px;
-    top: -40%;
-  }
+}
 
-  .card .card_icon{
-      position: relative;
-      width: 100px;
-      height: 100px;
-      border-radius: 30px;
-      top: -95%;
-      margin-left: 100px;
-      object-fit: cover;
+.title-white {
+  color: white;
+}
 
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
   }
-  .card .card_icon img{
-      width: inherit;
-      height: inherit;
-      border-radius: 30px;
-  }
-  
-  .card:hover {
-    transform: scale(1.01);
-    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25);
-      
-  }
-  
-  .title-white {
-    color: white;
-  }
-  
-  .title-black {
-    color: black;
-  }
-  
-  @media all and (max-width: 500px) {
-    .card-list {
-      /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
-    }
-  }
+}
   
