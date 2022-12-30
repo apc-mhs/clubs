@@ -10,8 +10,7 @@ body {
   background-color: #ffccc0;
   color:#00000090;
   
-  padding-left: 200px;
-  padding-right: 200px;
+ 
 }
 
 header {
@@ -56,16 +55,29 @@ header .fixed-header{
   top: 10px;
   left:10px;
 }
+/*Container*/
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  background-color: var(--background);
+  max-width: 65rem;
+  margin: 7rem auto;
+}
+/*Links box*/
+.links-box{
+  width: 28%;
+  display: block;
+}
 /*Tags Section*/
-.flowers-wrap{
+.container .links-box .flowers-wrap{
   z-index: 0;
-  width: 100%;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.control {
+.container .links-box .flowers-wrap .control {
   display: inline-flex;
   position: relative;
   margin: 5px;
@@ -73,7 +85,7 @@ header .fixed-header{
   border-radius: 99em;
   
 }
-.control .input {
+.container .links-box .flowers-wrap .control .input {
     position: absolute;
     opacity: 0;
     z-index: -10;
@@ -82,8 +94,8 @@ input[type=checkbox]{
   opacity: 0;
 }
 
-.control__content {
-  width: 100%;
+.container .links-box .flowers-wrap .control__content {
+  
   display: inline-flex;
   align-items: center;
   padding: 6px 12px;
@@ -99,10 +111,11 @@ input[type=checkbox]{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
-.club-info .club-description{
+.club-description{
   word-wrap: break-word;
-  width: 500px;
+ 
   font-size: 25px;
   background-color: aliceblue;
   border-radius: 10px;
@@ -110,11 +123,15 @@ input[type=checkbox]{
   padding-right: 10px;
   padding-top: 4px;
   padding-bottom: 5px;
-  
+  width: 37%;
+}
+.club-info .club-links{
+  background-color: aliceblue;
+  border-radius: 10px;
+  font-size: 25px;
 }
 .club-info .club-schedule{
-  width: 50%;
-  height:auto;
+ 
   text-align: start;
   font-size: 25px;
   background-color: aliceblue;
@@ -126,6 +143,16 @@ input[type=checkbox]{
 }
 li {
   margin:20px 0;
+}
+/*Gallery*/
+.container .gallery .gallery-image{
+  height: 8rem;
+  width: 8rem;
+  object-fit: cover;
+  border: 10px solid var(--boxes-background);
+  outline: 1px solid #eee;
+  margin: 0 0 2rem 0;
+  border-radius: 5px;
 }
 /*Picture Grid*/
 .row {
