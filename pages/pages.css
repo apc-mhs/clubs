@@ -97,12 +97,13 @@ input[type=checkbox]{
 /*Club Info*/
 .club-info{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 .club-info .club-description{
   word-wrap: break-word;
   width: 500px;
-  font-size: 20px;
+  font-size: 25px;
   background-color: aliceblue;
   border-radius: 10px;
   padding-left: 10px;
@@ -112,10 +113,10 @@ input[type=checkbox]{
   
 }
 .club-info .club-schedule{
-  width: auto;
+  width: 50%;
   height:auto;
   text-align: start;
-  font-size: 20px;
+  font-size: 25px;
   background-color: aliceblue;
   border-radius: 10px;
   padding-left: 10px;
