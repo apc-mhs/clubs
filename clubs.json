@@ -1,0 +1,374 @@
+[
+    {
+        "club": "9 Muses",
+        "sponsor": "Kanya Lai-Sobchack",
+        "meetingDate": "Thursdays",
+        "time": "MustangBlock",
+        "location": 328
+    },
+    {
+        "club": "Acapella Club",
+        "sponsor": "Jamie Sample",
+        "meetingDate": "Thursdays",
+        "time": "MustangBlock",
+        "location": "L12"
+    },
+    {
+        "club": "Anime Club",
+        "sponsor": "Sasha Thomas",
+        "meetingDate": "TBA",
+        "time": "Afterschool (NO Tuesday)",
+        "location": 308
+    },
+    {
+        "club": "Art Appreciation Club",
+        "sponsor": "Sarah Gurgo",
+        "meetingDate": "Tuesday",
+        "time": "Mustang Block",
+        "location": 306
+    },
+    {
+        "club": "ASL Club",
+        "sponsor": "Kenny Long, Brittany Dzugas-Smith, Izzy Psaki",
+        "meetingDate": "TBA",
+        "time": "After School (NOT Thursday)",
+        "location": 418
+    },
+    {
+        "club": "Band Council",
+        "sponsor": "Mary Jo West",
+        "meetingDate": "Every Other Thursday",
+        "time": "Mustang Block",
+        "location": "L06"
+    },
+    {
+        "club": "Best Buddies",
+        "sponsor": "Lynn Lunger/Stephanie Komadja",
+        "meetingDate": "TBA",
+        "time": "Mustang Block",
+        "location": 406
+    },
+    {
+        "club": "Black Student Union",
+        "sponsor": "Patrick Garland",
+        "meetingDate": "TBA",
+        "time": "TBA",
+        "location": 313
+    },
+    {
+        "club": "Book Swap Club",
+        "sponsor": "Brian Walsh",
+        "meetingDate": "BiWeekly Friday",
+        "time": "Mustang Block",
+        "location": 332
+    },
+    {
+        "club": "Boys Volleyball",
+        "sponsor": "Shannon Hladky (Volunteer)",
+        "meetingDate": "M or T or Thur",
+        "time": "3:30-5:30pm",
+        "location": "MEH GYM"
+    },
+    {
+        "club": "Cappies",
+        "sponsor": "Shawn Northrip",
+        "meetingDate": "1st two weeks of school",
+        "time": "Closed after 9 enrolled"
+    },
+    {
+        "club": "Chess",
+        "sponsor": "Adam Rivera",
+        "meetingDate": "Thursday",
+        "time": "Friday/MB",
+        "location": 412
+    },
+    {
+        "club": "College Sports Club",
+        "sponsor": "Shannon Love",
+        "meetingDate": "Varies",
+        "time": "Mustang Block",
+        "location": 331
+    },
+    {
+        "club": "Creative Filmaker's Club",
+        "sponsor": "Brain Walsh",
+        "meetingDate": "Thursdays",
+        "time": "Mustang Block",
+        "location": 332
+    },
+    {
+        "club": "Cyber Patriots",
+        "sponsor": "Steve Knight, Will Snyder",
+        "meetingDate": "Friday",
+        "time": "Mustang Block",
+        "location": 505
+    },
+    {
+        "club": "Entrepreneurs",
+        "sponsor": "Chris Pikrallidas (Volunteer)/Knight",
+        "meetingDate": "Varying Tuesday & Thursday",
+        "time": "Mustang Block",
+        "location": "Library Conference"
+    },
+    {
+        "club": "Environmental",
+        "sponsor": "Megan Rerucha",
+        "meetingDate": "1-2 times/week",
+        "time": "Mustang Block",
+        "location": "326/Vivarium"
+    },
+    {
+        "club": "Film Making Club/ VHSL Film Festival",
+        "sponsor": "Lisa Gross",
+        "meetingDate": "Tuesday",
+        "time": "3:15-4:30pm",
+        "location": "MEH Theater"
+    },
+    {
+        "club": "Foreign Service Youth Club",
+        "sponsor": "Sara Dudley",
+        "meetingDate": "TBD ~ once per month",
+        "time": "Mustang Block",
+        "location": 521
+    },
+    {
+        "club": "Freestyle Club",
+        "sponsor": "Jared Peet",
+        "meetingDate": "Fridays",
+        "time": "Mustang Block",
+        "location": 438
+    },
+    {
+        "club": "Future Doctors of America",
+        "sponsor": "Kish Rafique",
+        "meetingDate": "Thurs & Fri",
+        "time": "Mustang Blcok",
+        "location": 420
+    },
+    {
+        "club": "Gaming Club (Smash Bros)",
+        "sponsor": "Richard Spartos",
+        "meetingDate": "Tuesday or Friday",
+        "time": "Afterschool",
+        "location": "TBD"
+    },
+    {
+        "club": "Girls Who Code",
+        "sponsor": "Will Snyder"
+    },
+    {
+        "club": "Give Day",
+        "sponsor": "Josh Singer",
+        "meetingDate": "Wednesday",
+        "time": "Mustang Block",
+        "location": 438
+    },
+    {
+        "club": "GSA",
+        "sponsor": "Anna Barr",
+        "meetingDate": "Fridays",
+        "time": "Mustang Block",
+        "location": 434
+    },
+    {
+        "club": "Guitar Club",
+        "sponsor": "Mary Jo West",
+        "meetingDate": "Thursday",
+        "time": "Mustang Block",
+        "location": "Band Room"
+    },
+    {
+        "club": "Gun Vilolence Prevention CLub",
+        "sponsor": "Lisa Eaton",
+        "meetingDate": "Every Other Thurs",
+        "time": "Mustang Block",
+        "location": 327
+    },
+    {
+        "club": "Habitat for Humanity",
+        "sponsor": "Kenny George",
+        "meetingDate": "1st Tuesday of Month",
+        "time": "Mustang Blcok",
+        "location": 504
+    },
+    {
+        "club": "Hustang Math Team",
+        "sponsor": "Brandon Wright",
+        "meetingDate": "Thursday",
+        "time": "3:10-4:00pm"
+    },
+    {
+        "club": "Hustangs",
+        "sponsor": "Farrell Kelly",
+        "meetingDate": "Varies",
+        "time": "Varies",
+        "location": 214
+    },
+    {
+        "club": "International",
+        "sponsor": "Ann Bayliss",
+        "meetingDate": "Thursdays",
+        "time": "Mustang Block",
+        "location": 322
+    },
+    {
+        "club": "KAST (Kids Are Scientists Too)",
+        "sponsor": "Carey Pollack",
+        "meetingDate": "Tuesdays",
+        "time": "Mustang Block",
+        "location": 421
+    },
+    {
+        "club": "Lasso",
+        "sponsor": "Beau Fay",
+        "meetingDate": "First Tues",
+        "time": "Mustang Block",
+        "location": 328
+    },
+    {
+        "club": "Linguistics",
+        "sponsor": "Katia Taylor",
+        "meetingDate": "Mondays",
+        "time": "Mustang Block",
+        "location": 429
+    },
+    {
+        "club": "Mock Trial",
+        "sponsor": "John Pepper",
+        "meetingDate": "As needed",
+        "time": "1899-12-30T08:00:00.000Z",
+        "location": 314
+    },
+    {
+        "club": "Model United Nations",
+        "sponsor": "Jared Peet",
+        "meetingDate": "Every other Monday",
+        "time": "Mustang Block",
+        "location": "1901-03-13T05:00:00.000Z"
+    },
+    {
+        "club": "Musical Theater Appreciation Club",
+        "sponsor": "Holly Garcia",
+        "meetingDate": "Every other Thursday",
+        "time": "3:00 - 4:00",
+        "location": 323
+    },
+    {
+        "club": "Mustang Mysteries (True Crime/Murder Mystery)",
+        "sponsor": "Natalie Glees",
+        "meetingDate": "Wednesday",
+        "time": "3-425pm",
+        "location": 419
+    },
+    {
+        "club": "Our Minds Matter",
+        "sponsor": "Ghada Khalaf",
+        "meetingDate": "every other friday",
+        "time": "Mustang Block",
+        "location": "tbd"
+    },
+    {
+        "club": "Pickle Ball & Badminton Club",
+        "sponsor": "Courtney GIbbons",
+        "meetingDate": "Mondays or Wednesdays",
+        "time": "Mustang Block",
+        "location": "Aux Gym"
+    },
+    {
+        "club": "Red Cross Club",
+        "sponsor": "Susan Zernick",
+        "meetingDate": "TBA",
+        "time": "TBA",
+        "location": 313
+    },
+    {
+        "club": "Robotics",
+        "sponsor": "Steve Knight",
+        "meetingDate": "Tues (Every day in January and some Sats)",
+        "time": "1899-12-30T08:00:00.000Z",
+        "location": 506
+    },
+    {
+        "club": "Rock Climbing Interest Group",
+        "sponsor": "Kenneth George",
+        "meetingDate": "Wednesday",
+        "time": "Mustang Block",
+        "location": "1901-05-18T05:00:00.000Z"
+    },
+    {
+        "club": "Role Playing",
+        "sponsor": "Kent Foster",
+        "meetingDate": "Tuesday",
+        "time": "1899-12-30T08:00:00.000Z",
+        "location": 425
+    },
+    {
+        "club": "SCA",
+        "sponsor": "Kish Rafique",
+        "meetingDate": "Multiple",
+        "time": "Mustang Block",
+        "location": "1901-02-23T05:00:00.000Z"
+    },
+    {
+        "club": "Scholastic Bowl",
+        "sponsor": "Jon Pepper",
+        "meetingDate": "Mondays",
+        "time": "1899-12-30T08:00:00.000Z",
+        "location": 315
+    },
+    {
+        "club": "Science Olympiad",
+        "sponsor": "David Ly",
+        "meetingDate": "Thursday",
+        "time": "Mustang Block",
+        "location": "1901-03-07T05:00:00.000Z"
+    },
+    {
+        "club": "Smash League",
+        "sponsor": "Sasha Thomas",
+        "meetingDate": "Tuesday",
+        "time": "Afterschool",
+        "location": "Learning Stairs"
+    },
+    {
+        "club": "Spoons Club",
+        "sponsor": "Sara Dudley",
+        "meetingDate": "Fridays",
+        "time": "Mustang Block",
+        "location": 521
+    },
+    {
+        "club": "Tennis Club",
+        "sponsor": "Matt Sowers",
+        "meetingDate": "Tuesdays",
+        "time": "3:10-4:25",
+        "location": "Tennis Cts"
+    },
+    {
+        "club": "Tri M Music National Honor Society",
+        "sponsor": "Mary Jo West",
+        "meetingDate": "Every Other Tuesday",
+        "time": "Mustang Block",
+        "location": "L06"
+    },
+    {
+        "club": "Unicef",
+        "sponsor": "Sarah Gurgo",
+        "meetingDate": "Fridays",
+        "time": "Mustang Block",
+        "location": 306
+    },
+    {
+        "club": "Winter Sports Club",
+        "sponsor": "Jason Perkins",
+        "meetingDate": "Weekly",
+        "time": "Mustang Block"
+    },
+    {
+        "club": "Women in Athletics",
+        "sponsor": "Judy Knoke",
+        "meetingDate": "Mondays ~once per month",
+        "time": "Mustang Block",
+        "location": 520
+    }
+]

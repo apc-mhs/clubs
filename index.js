@@ -47,3 +47,9 @@ var filterFunc = function() {
 }
 
 $filterCheckboxes.on('change', filterFunc); 
+
+var generatePage = function(){
+  //console.log("here");
+  var opened = window.open("");
+  opened.document.write("<html><head><title>MyTitle</title></head><body>test</body></html>");
+};
