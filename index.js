@@ -53,3 +53,23 @@ var generatePage = function(){
   var opened = window.open("");
   opened.document.write("<html><head><title>MyTitle</title></head><body>test</body></html>");
 };
+//Club Info Popup
+
+var showInfo = function(){
+  var modal = document.getElementById("popup");
+  var overlay = document.getElementById("overlay");
+  modal.style.display = "block";
+  overlay.style.display = "block";
+}
+
+window.onclick = function(event) {
+  
+  var modal = document.getElementById("popup");
+  var overlay = document.getElementById("overlay");
+  if (event.target == overlay) {
+    overlay.style.display = "none";
+    modal.style.display = "none";
+  }
+  console.log(event.target);
+  
+}

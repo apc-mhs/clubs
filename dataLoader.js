@@ -7,9 +7,8 @@ fetch("clubs.json")
    let out = "";
    for(let club of clubs){
       out += `
-        <div class="card 1" data-category="Arts">
-            
-            <div class="card_image" > <img src="https://i.redd.it/b3esnz5ra34y.jpg" /></div>
+        <div class="card 1" data-category="Arts" onclick = "showInfo()">
+            <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /></div>
             <div class="card_title title-white">
                 <p>${club.club}</p>
             </div>
