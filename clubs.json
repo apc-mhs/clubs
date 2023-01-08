@@ -4,28 +4,33 @@
         "sponsor": "Kanya Lai-Sobchack",
         "meetingDate": "Thursdays",
         "time": "MustangBlock",
-        "location": 328
+        "location": 328,
+        "icon": "google.com"
     },
     {
         "club": "Acapella Club",
         "sponsor": "Jamie Sample",
         "meetingDate": "Thursdays",
         "time": "MustangBlock",
-        "location": "L12"
+        "location": "L12",
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-1469149463_5dc5851c6e010.png?1573225756"
+        
     },
     {
         "club": "Anime Club",
         "sponsor": "Sasha Thomas",
         "meetingDate": "TBA",
         "time": "Afterschool (NO Tuesday)",
-        "location": 308
+        "location": 308,
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6344672938_633b0e430633c.png?1664814659"
     },
     {
         "club": "Art Appreciation Club",
         "sponsor": "Sarah Gurgo",
         "meetingDate": "Tuesday",
         "time": "Mustang Block",
-        "location": 306
+        "location": 306,
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6336877263_6336e52ebd49b.jpg?1664541998"
     },
     {
         "club": "ASL Club",
@@ -46,7 +51,8 @@
         "sponsor": "Lynn Lunger/Stephanie Komadja",
         "meetingDate": "TBA",
         "time": "Mustang Block",
-        "location": 406
+        "location": 406,
+        "icon":"https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-797438925_57d996f463c80.png?1473877748"
     },
     {
         "club": "Black Student Union",
@@ -161,14 +167,16 @@
         "sponsor": "Josh Singer",
         "meetingDate": "Wednesday",
         "time": "Mustang Block",
-        "location": 438
+        "location": 438,
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-2012342604_5db1ada26c643.jpg?1571925410"
     },
     {
         "club": "GSA",
         "sponsor": "Anna Barr",
         "meetingDate": "Fridays",
         "time": "Mustang Block",
-        "location": 434
+        "location": 434,
+        "icon":"https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-3008977095_617ada97882ee.png?1635441303"
     },
     {
         "club": "Guitar Club",
