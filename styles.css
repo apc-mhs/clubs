@@ -118,8 +118,8 @@ input[type=checkbox]{
     
 .card {
   margin: 30px auto;
-  width: 300px;
-  height: 300px;
+  width: 420px;
+  height: 200px;
   border-radius: 40px;
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25);
   cursor: pointer;
@@ -148,31 +148,70 @@ input[type=checkbox]{
 
 .card .card_title {
   position: relative;
-  text-align: center;
+  text-align: left;
   border-radius: 0px 0px 40px 40px;
   font-family: sans-serif;
   font-weight: bold;
   font-size: 30px;
   height: 40px;
-  top: -40%;
 
+  margin-left: 40%;
   text-shadow: 2px 2px 4px #000000;
 }
 
 .card .card_icon{
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   border-radius: 30px;
-  top: -95%;
-  margin-left: 100px;
+  margin-left: 20px;
+  margin-top: -20px;
   object-fit: cover;
+
+  box-shadow: 2px 2px 4px #000000;
 
 }
 .card .card_icon img{
   width: inherit;
   height: inherit;
   border-radius: 30px;
+}
+
+.tag_container{
+  width: 60%;
+  height: 60%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  margin-left:38%;
+  margin-top: -20%;
+}
+
+.card_tag{
+  
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+  padding: 6px 12px;
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 99em;
+}
+
+.card_tag_content{
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  font-family: sans-serif;
+  font-size: 18px;
+  height: 10px;
+
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 99em;
 }
   
 .card:hover {
