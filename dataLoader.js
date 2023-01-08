@@ -7,12 +7,18 @@ fetch("clubs.json")
    let out = "";
    for(let club of clubs){
       //<div class="card_image"> <img src=${club.icon} /></div>
+      out += `<div class="card 1" data-category="`;
+      if(club.maintags){
+         const tagsList = club.maintags.split(", ");
+         for(let tag of tagsList){
+            out+= `${tag}`;
+         }
+      }
+      out+= `" onclick = "showInfo()">`;
       out += `
-        <div class="card 1" data-category="Arts" onclick = "showInfo()">
-            
-            <div class="card_title title-white"><p>${club.club}</p></div>
-            <div class="card_icon"> <img src=${club.icon}></div>
-            <div class="tag_container">
+         <div class="card_title title-white"><p>${club.club}</p></div>
+         <div class="card_icon"> <img src=${club.icon}></div>
+         <div class="tag_container">
       `;
       if(club.subtags){
          const tagsList = club.subtags.split(", ");

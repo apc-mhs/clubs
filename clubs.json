@@ -5,6 +5,7 @@
         "meetingDate": "Thursdays",
         "time": "MustangBlock",
         "location": 328,
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-57585671_5319bd3d72044.jpg?1378136872",
         "maintags": "Arts",
         "subtags": "Writing"
     },
@@ -26,7 +27,8 @@
         "location": 308,
         "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6344672938_633b0e430633c.png?1664814659",
         "maintags": "Arts",
-        "subtags": "Manga, Anime"
+        "subtags": "Manga, Anime, Low committment",
+        "description": "Watch anime with your peers"
     },
     {
         "club": "Art Appreciation Club",
@@ -35,7 +37,8 @@
         "time": "Mustang Block",
         "location": 306,
         "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6336877263_6336e52ebd49b.jpg?1664541998",
-        "maintags": "Arts"
+        "maintags": "Arts",
+        "subtags": "Arts, Low committment"
     },
     {
         "club": "ASL Club",
@@ -130,7 +133,7 @@
         "meetingDate": "Friday",
         "time": "Mustang Block",
         "location": 505,
-        "icon": "https",
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-160201540_56cca0227f6a6.png?1456250914",
         "maintags": "STEM, Competition",
         "subtags": "Cybersecurity, Competition"
     },
@@ -150,14 +153,17 @@
         "meetingDate": "1-2 times/week",
         "time": "Mustang Block",
         "location": "326/Vivarium",
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-5332945207_614a6924af61a.jpeg?1632266532"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-5332945207_614a6924af61a.jpeg?1632266532",
+        "maintags": "STEM",
+        "subtags": "Biology"
     },
     {
         "club": "Film Making Club/ VHSL Film Festival",
         "sponsor": "Lisa Gross",
         "meetingDate": "Tuesday",
         "time": "3:15-4:30pm",
-        "location": "MEH Theater"
+        "location": "MEH Theater",
+        "maintags": "Arts"
     },
     {
         "club": "Foreign Service Youth Club",
@@ -172,7 +178,8 @@
         "sponsor": "Jared Peet",
         "meetingDate": "Fridays",
         "time": "Mustang Block",
-        "location": 438
+        "location": 438,
+        "maintags": "Arts"
     },
     {
         "club": "Future Doctors of America",
@@ -180,19 +187,24 @@
         "meetingDate": "Thurs & Fri",
         "time": "Mustang Blcok",
         "location": 420,
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-4744676695_6042225fc47f8.png?1614946911"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-4744676695_6042225fc47f8.png?1614946911",
+        "maintags": "STEM"
     },
     {
         "club": "Gaming Club (Smash Bros)",
         "sponsor": "Richard Spartos",
         "meetingDate": "Tuesday or Friday",
         "time": "Afterschool",
-        "location": "TBD"
+        "location": "TBD",
+        "maintags": "Games, Competition",
+        "subtags": "Competition, Smash Bros"
     },
     {
         "club": "Girls Who Code",
         "sponsor": "Will Snyder",
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-3285985977_616edea2d0d31.jpg?1634655907"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-3285985977_616edea2d0d31.jpg?1634655907",
+        "maintags": "STEM",
+        "subtags": "Coding"
     },
     {
         "club": "Give Day",
@@ -200,7 +212,8 @@
         "meetingDate": "Wednesday",
         "time": "Mustang Block",
         "location": 438,
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-2012342604_5db1ada26c643.jpg?1571925410"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-2012342604_5db1ada26c643.jpg?1571925410",
+        "maintags": "Volunteering"
     },
     {
         "club": "GSA",
@@ -208,7 +221,9 @@
         "meetingDate": "Fridays",
         "time": "Mustang Block",
         "location": 434,
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-3008977095_617ada97882ee.png?1635441303"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-3008977095_617ada97882ee.png?1635441303",
+        "maintags": "Community",
+        "subtags": "LGBTQ+"
     },
     {
         "club": "Guitar Club",
@@ -216,14 +231,18 @@
         "meetingDate": "Thursday",
         "time": "Mustang Block",
         "location": "Band Room",
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6294825058_6337242f24514.jpeg?1664558127"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6294825058_6337242f24514.jpeg?1664558127",
+        "maintags": "Arts",
+        "subtags": "Guitar"
     },
     {
         "club": "Gun Vilolence Prevention CLub",
         "sponsor": "Lisa Eaton",
         "meetingDate": "Every Other Thurs",
         "time": "Mustang Block",
-        "location": 327
+        "location": 327,
+        "maintags": "Humanities",
+        "subtags": "Activism"
     },
     {
         "club": "Habitat for Humanity",
@@ -231,14 +250,18 @@
         "meetingDate": "1st Tuesday of Month",
         "time": "Mustang Blcok",
         "location": 504,
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-809300581_5bb42756de3e1.jpeg?1538533206"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-809300581_5bb42756de3e1.jpeg?1538533206",
+        "maintags": "Humanities, Volunteering, STEM",
+        "subtags": "Construction, Green-living, Volunteering"
     },
     {
         "club": "Hustang Math Team",
         "sponsor": "Brandon Wright",
         "meetingDate": "Thursday",
         "time": "3:10-4:00pm",
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6302866512_632c5a9d27e43.png?1663851165"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6302866512_632c5a9d27e43.png?1663851165",
+        "maintags": "STEM",
+        "subtags": "Math"
     },
     {
         "club": "Hustangs",
@@ -248,7 +271,7 @@
         "location": 214
     },
     {
-        "club": "International",
+        "club": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-160201540_56cca0227f6a6.png?1456250914",
         "sponsor": "Ann Bayliss",
         "meetingDate": "Thursdays",
         "time": "Mustang Block",
@@ -261,7 +284,9 @@
         "meetingDate": "Tuesdays",
         "time": "Mustang Block",
         "location": 421,
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-388760685_615dab224acf8.png?1633528610"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-388760685_615dab224acf8.png?1633528610",
+        "maintags": "STEM, Volunteering",
+        "subtags": "Teaching, Science, Volunteering"
     },
     {
         "club": "Lasso",
@@ -269,7 +294,9 @@
         "meetingDate": "First Tues",
         "time": "Mustang Block",
         "location": 328,
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6339434275_633735477d364.png?1664562503"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6339434275_633735477d364.png?1664562503",
+        "maintags": "Community, Arts, Humanities",
+        "subtags": "Writing, Reporting"
     },
     {
         "club": "Linguistics",
@@ -285,7 +312,9 @@
         "meetingDate": "As needed",
         "time": "1899-12-30T08:00:00.000Z",
         "location": 314,
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-1313823406_5f64df02a471a.jpg?1600446210"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-1313823406_5f64df02a471a.jpg?1600446210",
+        "maintags": "Humanities",
+        "subtags": "Language"
     },
     {
         "club": "Model United Nations",
@@ -293,7 +322,9 @@
         "meetingDate": "Every other Monday",
         "time": "Mustang Block",
         "location": "1901-03-13T05:00:00.000Z",
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-20758747_545a32bd6b219.jpg?1415197373"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-20758747_545a32bd6b219.jpg?1415197373",
+        "maintags": "Humanities",
+        "subtags": "Politics"
     },
     {
         "club": "Musical Theater Appreciation Club",
@@ -303,75 +334,97 @@
         "location": 323
     },
     {
-        "club": "Mustang Mysteries (True Crime/Murder Mystery)",
+        "club": "Mustang Mysteries",
         "sponsor": "Natalie Glees",
         "meetingDate": "Wednesday",
         "time": "3-425pm",
         "location": 419,
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6331202312_6335e0c774ee1.png?1664475335"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6331202312_6335e0c774ee1.png?1664475335",
+        "maintags": "Games",
+        "subtags": "True Crime, Murder Mystery"
     },
     {
         "club": "Our Minds Matter",
         "sponsor": "Ghada Khalaf",
         "meetingDate": "every other friday",
         "time": "Mustang Block",
-        "location": "tbd"
+        "location": "tbd",
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-2955568872_63179dd954972.png?1662492121",
+        "maintags": "Community"
     },
     {
         "club": "Pickle Ball & Badminton Club",
         "sponsor": "Courtney GIbbons",
         "meetingDate": "Mondays or Wednesdays",
         "time": "Mustang Block",
-        "location": "Aux Gym"
+        "location": "Aux Gym",
+        "maintags": "Sports"
     },
     {
         "club": "Red Cross Club",
         "sponsor": "Susan Zernick",
         "meetingDate": "TBA",
         "time": "TBA",
-        "location": 313
+        "location": 313,
+        "maintags": "Community"
     },
     {
         "club": "Robotics",
         "sponsor": "Steve Knight",
         "meetingDate": "Tues (Every day in January and some Sats)",
         "time": "1899-12-30T08:00:00.000Z",
-        "location": 506
+        "location": 506,
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-164181722_57f8223bd31cb.png?1475879519",
+        "maintags": "STEM",
+        "subtags": "Engineering, Coding, Design"
     },
     {
         "club": "Rock Climbing Interest Group",
         "sponsor": "Kenneth George",
         "meetingDate": "Wednesday",
         "time": "Mustang Block",
-        "location": "1901-05-18T05:00:00.000Z"
+        "location": "1901-05-18T05:00:00.000Z",
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6329704276_6362ff110fa9f.png?1667432209",
+        "maintags": "Sports",
+        "subtags": "Rockclimbing"
     },
     {
         "club": "Role Playing",
         "sponsor": "Kent Foster",
         "meetingDate": "Tuesday",
         "time": "1899-12-30T08:00:00.000Z",
-        "location": 425
+        "location": 425,
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-1295688442_5a677bfb87fb3.jpg?1568771424",
+        "maintags": "Games",
+        "subtags": "Roleplaying"
     },
     {
         "club": "SCA",
         "sponsor": "Kish Rafique",
         "meetingDate": "Multiple",
         "time": "Mustang Block",
-        "location": "1901-02-23T05:00:00.000Z"
+        "location": "1901-02-23T05:00:00.000Z",
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-5327786548_614a30d6b42b8.png?1632252118",
+        "maintags": "Community"
     },
     {
         "club": "Scholastic Bowl",
         "sponsor": "Jon Pepper",
         "meetingDate": "Mondays",
         "time": "1899-12-30T08:00:00.000Z",
-        "location": 315
+        "location": 315,
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_sm/grouplogos/logo-16896701_5319b4a710fc7.jpg?1386101628",
+        "maintags": "Games, STEM, Humanities"
     },
     {
         "club": "Science Olympiad",
         "sponsor": "David Ly",
         "meetingDate": "Thursday",
         "time": "Mustang Block",
-        "location": "1901-03-07T05:00:00.000Z"
+        "location": "1901-03-07T05:00:00.000Z",
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6313391038_635a9d9a16bfc.jpg?1666882970",
+        "maintags": "STEM",
+        "subtags": "Competition"
     },
     {
         "club": "Smash League",
@@ -379,47 +432,64 @@
         "meetingDate": "Tuesday",
         "time": "Afterschool",
         "location": "Learning Stairs",
-        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6325376307_6332ec96f083f.jpeg?1664281751"
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6325376307_6332ec96f083f.jpeg?1664281751",
+        "maintags": "Games",
+        "subtags": "Smash Bros"
     },
     {
         "club": "Spoons Club",
         "sponsor": "Sara Dudley",
         "meetingDate": "Fridays",
         "time": "Mustang Block",
-        "location": 521
+        "location": 521,
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6293378224_6349a650f16c0.png?1665771089",
+        "maintags": "Community",
+        "subtags": "Spoons"
     },
     {
         "club": "Tennis Club",
         "sponsor": "Matt Sowers",
         "meetingDate": "Tuesdays",
         "time": "3:10-4:25",
-        "location": "Tennis Cts"
+        "location": "Tennis Cts",
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6364830922_63446466f1ac0.jpg?1665426556",
+        "maintags": "Sports",
+        "subtags": "Tennis"
     },
     {
         "club": "Tri M Music National Honor Society",
         "sponsor": "Mary Jo West",
         "meetingDate": "Every Other Tuesday",
         "time": "Mustang Block",
-        "location": "L06"
+        "location": "L06",
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-5371464595_631f3dc597c70.jpg?1662991813",
+        "maintags": "Arts",
+        "subtags": "Musical performances"
     },
     {
         "club": "Unicef",
         "sponsor": "Sarah Gurgo",
         "meetingDate": "Fridays",
         "time": "Mustang Block",
-        "location": 306
+        "location": 306,
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-1297402648_59d78f7261f53.jpg?1507299186",
+        "maintags": "Humanities",
+        "subtags": "Volunteering"
     },
     {
         "club": "Winter Sports Club",
         "sponsor": "Jason Perkins",
         "meetingDate": "Weekly",
-        "time": "Mustang Block"
+        "time": "Mustang Block",
+        "maintags": "Sports"
     },
     {
         "club": "Women in Athletics",
         "sponsor": "Judy Knoke",
         "meetingDate": "Mondays ~once per month",
         "time": "Mustang Block",
-        "location": 520
+        "location": 520,
+        "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6354595849_6349926493e53.png?1665766000",
+        "maintags": "Sports"
     }
 ]

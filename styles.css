@@ -165,7 +165,7 @@ input[type=checkbox]{
   height: 130px;
   border-radius: 30px;
   margin-left: 20px;
-  margin-top: -20px;
+  margin-top: -50px;
   object-fit: cover;
 
   box-shadow: 2px 2px 4px #000000;
@@ -178,24 +178,28 @@ input[type=checkbox]{
 }
 
 .tag_container{
+  position: relative;
   width: 60%;
-  height: 60%;
+  height: 30%;
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  
+  gap: 10px;
 
-  margin-left:38%;
-  margin-top: -20%;
+  margin-left:40%;
+  margin-top: -50px;
+
+  border: 5px;
+  border-color: #000000;
 }
 
 .card_tag{
-  
-  height: 20px;
-  display: inline-block;
+  height: 38%;
   text-align: center;
-  margin-left: 10px;
-  padding: 6px 12px;
+
+  padding: 7px 12px;
+  
   font-family: sans-serif;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 99em;
