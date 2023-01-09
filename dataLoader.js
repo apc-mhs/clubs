@@ -14,13 +14,11 @@ fetch("clubs.json")
             out+= `${tag}`;
          }
       }
-      console.log(club);
-      if(club.description){
-         out+= `" onclick = "showInfo(${this})">`;
-      }
-      else{
-         out+= `" onclick = "showInfo()">`;
-      }
+      //console.log(club);
+      
+      out+= `" onclick = "showInfo('${club.club}')">`;
+   
+      
       out += `
          <div class="card_title">${club.club}</div>
          <div class="card_icon"> <img src=${club.icon}></div>

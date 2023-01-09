@@ -60,12 +60,25 @@ var showInfo = function(values){
   var modal = document.getElementById("popup");
   var overlay = document.getElementById("overlay");
   var description = document.getElementById("club-description");
-  if(values){
-    description.innerHTML=values.description;
-  }
+  
+  var found = findClubInfo(values);
+  description.innerHTML=found[0].description;
   
   modal.style.display = "block";
   overlay.style.display = "block";
+}
+
+var data = null;
+fetch("clubs.json")
+  .then((response)=> response.json())
+  .then((json)=>data=json);
+
+function findClubInfo(name){
+  return data.filter(
+    function(data){
+      return data.club == name;
+    }
+  )
 }
 
 window.onclick = function(event) {
@@ -76,6 +89,5 @@ window.onclick = function(event) {
     overlay.style.display = "none";
     modal.style.display = "none";
   }
-  console.log(event.target);
   
 }
