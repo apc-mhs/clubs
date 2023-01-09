@@ -97,10 +97,16 @@ body {
 .control .input {
   position: absolute;
   opacity: 0;
-  z-index: -10;
+  z-index: 100;
 }
 input[type=checkbox]{
   opacity: 0;
+}
+
+input[type=checkbox]:checked + label{
+  opacity: 1;
+  background-color: aqua;
+  color:rgba(0, 0, 0, 0.05);
 }
 
 .control__content {
@@ -119,9 +125,9 @@ input[type=checkbox]{
 .card {
   margin: 30px auto;
   width: 420px;
-  height: 200px;
-  border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25);
+  height: 190px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px 2px rgba(0,0,0,0.25);
   cursor: pointer;
   transition: 0.2s;
   
@@ -151,12 +157,14 @@ input[type=checkbox]{
   text-align: left;
   border-radius: 0px 0px 40px 40px;
   font-family: sans-serif;
-  font-weight: bold;
+  font-weight:1000;
   font-size: 30px;
   height: 40px;
+  color:#000000;
 
   margin-left: 40%;
-  text-shadow: 2px 2px 4px #000000;
+  margin-top: 20px;
+  
 }
 
 .card .card_icon{
@@ -165,7 +173,7 @@ input[type=checkbox]{
   height: 130px;
   border-radius: 30px;
   margin-left: 20px;
-  margin-top: -50px;
+  margin-top: -40px;
   object-fit: cover;
 
   box-shadow: 2px 2px 4px #000000;
@@ -195,14 +203,17 @@ input[type=checkbox]{
 }
 
 .card_tag{
-  height: 38%;
+  height: 35%;
   text-align: center;
-
-  padding: 7px 12px;
+  line-height: 21px;
+  padding: 6px 11px;
   
   font-family: sans-serif;
-  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 15px;
+  color:rgb(112, 112, 112);
   border-radius: 99em;
+
+  outline: rgb(187, 187, 187) solid 1px;
 }
 
 .card_tag_content{
@@ -220,7 +231,7 @@ input[type=checkbox]{
   
 .card:hover {
   transform: scale(1.01);
-  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25);
+  box-shadow: 0px 8px 20px 3px rgba(0,0,0,0.25);
     
 }
 

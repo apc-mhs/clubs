@@ -7,7 +7,7 @@ fetch("clubs.json")
    let out = "";
    for(let club of clubs){
       //<div class="card_image"> <img src=${club.icon} /></div>
-      out += `<div class="card 1" data-category="`;
+      out += `<div class="card" data-category="`;
       if(club.maintags){
          const tagsList = club.maintags.split(", ");
          for(let tag of tagsList){
@@ -16,7 +16,7 @@ fetch("clubs.json")
       }
       out+= `" onclick = "showInfo()">`;
       out += `
-         <div class="card_title title-white"><p>${club.club}</p></div>
+         <div class="card_title">${club.club}</div>
          <div class="card_icon"> <img src=${club.icon}></div>
          <div class="tag_container">
       `;
