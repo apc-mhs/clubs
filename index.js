@@ -55,9 +55,15 @@ var generatePage = function(){
 };
 //Club Info Popup
 
-var showInfo = function(){
+var showInfo = function(values){
+  
   var modal = document.getElementById("popup");
   var overlay = document.getElementById("overlay");
+  var description = document.getElementById("club-description");
+  if(values){
+    description.innerHTML=values.description;
+  }
+  
   modal.style.display = "block";
   overlay.style.display = "block";
 }
