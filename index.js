@@ -57,9 +57,16 @@ var showInfo = function(values){
   var modal = document.getElementById("popup");
   var overlay = document.getElementById("overlay");
   var description = document.getElementById("club-description");
+  var sponsor = document.getElementById("sponsor-info");
+  var location = document.getElementById("location-info");
+  var date = document.getElementById("date-info");
+  var tags = document.getElementById("tag-info");
   
   var found = findClubInfo(values);
   description.innerHTML=found[0].description;
+  sponsor.innerHTML = "Sponsor: "+ found[0].sponsor;
+  location.innerHTML = "Room: " + found[0].location;
+  date.innerHTML = "Meeting date: " + found[0].meetingDate;
   
   modal.style.display = "block";
   overlay.style.display = "block";

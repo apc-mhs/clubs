@@ -1,6 +1,6 @@
 body{
   --meridian-red: #EB232D;
-  --background: #cf3f3f;
+  --background: hsl(0, 0%, 100%);
   --card-outline:#000000;
   --banner-background:#d92029;
   --tag-background:#ffffff;
@@ -12,24 +12,28 @@ header {
 }
 
 header .bg-container{
-  height: 200px;
+  height: 100px;
+  margin-top: -30px;
   overflow: hidden;
-  display:flex;
+  display:block;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  
+  background-color: rgb(255, 70, 70);
+  border-radius: 20px;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  outline: 4px solid;
 }
 
 header .bg-container img{
   object-fit: cover;
-  
   z-index: 0;
 }
 
 header .banner-title{
   position: absolute;
-  top:10px;
+  margin-top: 15px;
   margin-left: 30px;
   text-align: center;
 
@@ -38,7 +42,7 @@ header .banner-title{
   font-family: sans-serif;
   font-weight: bold;
   font-size: 30px;
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .popup{
@@ -103,6 +107,8 @@ body {
 
   padding-left: 35px;
   padding-right: 35px;
+
+  margin-top: 20px;
 }
 
 .tag {
@@ -139,7 +145,7 @@ input[type=checkbox]:checked + label{
   color: rgb(0, 0, 0);
   background-color: var(--tag-background);
   border-radius: 99em;
-  outline: rgb(0, 0, 0) 3px solid;
+  outline: rgba(0, 0, 0, 0.211) 3px solid;
 }
     
 .card {
