@@ -61,12 +61,37 @@ var showInfo = function(values){
   var location = document.getElementById("location-info");
   var date = document.getElementById("date-info");
   var tags = document.getElementById("tag-info");
+  var name = document.getElementById("club-name");
   
   var found = findClubInfo(values);
   description.innerHTML=found[0].description;
   sponsor.innerHTML = "Sponsor: "+ found[0].sponsor;
   location.innerHTML = "Room: " + found[0].location;
   date.innerHTML = "Meeting date: " + found[0].meetingDate;
+  name.innerHTML = found[0].club;
+  
+  let out = "";
+  if(found[0].maintags){
+    const tagsList = found[0].maintags.split(", ");
+    for(let tag of tagsList){
+       out+= `
+          <label class="tag">
+              <span class="tag-content">${tag}</span>
+          </label><br>
+        `;
+    }
+  }
+  if(found[0].subtags){
+    const tagsList = found[0].subtags.split(", ");
+    for(let tag of tagsList){
+       out+= `
+          <label class="tag">
+              <span class="tag-content">${tag}</span>
+          </label><br>
+        `;
+    }
+  }
+  tags.innerHTML = out;
   
   modal.style.display = "block";
   overlay.style.display = "block";
@@ -86,7 +111,6 @@ function findClubInfo(name){
 }
 
 window.onclick = function(event) {
-  
   var modal = document.getElementById("popup");
   var overlay = document.getElementById("overlay");
   if (event.target == overlay) {
