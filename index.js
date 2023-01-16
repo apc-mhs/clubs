@@ -4,12 +4,14 @@ var filterFunc = function() {
   var selectedFilters = {};
 
   $filterCheckboxes.filter(':checked').each(function() {
-
+    this.parentElement.children[1].style.backgroundColor = "grey";
     if (!selectedFilters.hasOwnProperty(this.name)) {
       selectedFilters[this.name] = [];
     }
-
     selectedFilters[this.name].push(this.value);
+  });
+  $filterCheckboxes.filter(':not(:checked)').each(function(){
+    this.parentElement.children[1].style.backgroundColor = "white";
   });
 
   // create a collection containing all of the filterable elements
@@ -48,11 +50,6 @@ var filterFunc = function() {
 
 $filterCheckboxes.on('change', filterFunc); 
 
-var generatePage = function(){
-  //console.log("here");
-  var opened = window.open("");
-  opened.document.write("<html><head><title>MyTitle</title></head><body>test</body></html>");
-};
 //Club Info Popup
 
 var showInfo = function(values){

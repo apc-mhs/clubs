@@ -1,3 +1,11 @@
+body{
+  --meridian-red: #EB232D;
+  --background: #cf3f3f;
+  --card-outline:#000000;
+  --banner-background:#d92029;
+  --tag-background:#ffffff;
+}
+
 header {
   text-align: center;
   justify-content: center;
@@ -9,6 +17,7 @@ header .bg-container{
   display:flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
   
 }
 
@@ -29,6 +38,7 @@ header .banner-title{
   font-family: sans-serif;
   font-weight: bold;
   font-size: 30px;
+  color:white;
 }
 
 .popup{
@@ -48,6 +58,7 @@ header .banner-title{
 .overlay {
   position: fixed;
   top:0%;
+  left:0%;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -57,7 +68,12 @@ header .banner-title{
 }
 
 body {
-    
+  background-color: var(--background);
+}
+
+.container{
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 .link {
@@ -79,15 +95,17 @@ body {
   
 }
 
-.flowers-wrap{
+.filter-tags{
   z-index: 0;
-  width: 100%;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
-.control {
+.tag {
   display: inline-flex;
   position: relative;
   margin: 5px;
@@ -95,7 +113,7 @@ body {
   border-radius: 99em;
     
 }
-.control .input {
+.tag .input {
   position: absolute;
   opacity: 0;
   z-index: 100;
@@ -110,7 +128,7 @@ input[type=checkbox]:checked + label{
   color:rgba(0, 0, 0, 0.05);
 }
 
-.control__content {
+.tag-content {
   width: 100%;
   display: inline-flex;
   align-items: center;
@@ -118,8 +136,8 @@ input[type=checkbox]:checked + label{
   font-family: sans-serif;
   font-size: 24px;
   line-height: 32px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(241, 52, 52);
+  color: rgb(0, 0, 0);
+  background-color: var(--tag-background);
   border-radius: 99em;
   outline: rgb(0, 0, 0) 3px solid;
 }
@@ -129,12 +147,16 @@ input[type=checkbox]:checked + label{
   width: 420px;
   height: 190px;
   border-radius: 30px;
-  box-shadow: 0px 9px 0px 4px rgb(180, 0, 0);
+  box-shadow: 0px 9px 0px 4px var(--card-outline);
   cursor: pointer;
   transition: 0.2s;
-  background-color: rgb(255, 255, 255);
-  outline: rgb(180, 0, 0) 4px solid;
-  
+  background-color: white;
+  outline:var(--card-outline) 4px solid;
+}
+
+.card:hover {
+  translate: 0 -2px;
+  box-shadow: 0px 12px 0px 4px var(--card-outline);
 }
 
 .card .card-span{
@@ -180,7 +202,7 @@ input[type=checkbox]:checked + label{
   margin-top: -40px;
   object-fit: cover;
 
-  outline: rgb(180,0,0) 3px solid;
+  outline: var(--card-outline) 3px solid;
 
 }
 .card .card_icon img{
@@ -233,11 +255,7 @@ input[type=checkbox]:checked + label{
   border-radius: 99em;
 }
   
-.card:hover {
-  translate: 0 -2px;
-  box-shadow: 0px 12px 0px 4px rgb(210, 0, 0);
-    
-}
+
 
 .title-white {
   color: white;
@@ -271,14 +289,14 @@ input[type=checkbox]:checked + label{
   display: block;
 }
 /*Tags Section*/
-info-container .links-box .flowers-wrap{
+info-container .links-box .filter-tags{
   z-index: 0;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-info-container .links-box .flowers-wrap .control {
+info-container .links-box .filter-tags .tag {
   display: inline-flex;
   position: relative;
   margin: 5px;
@@ -286,7 +304,7 @@ info-container .links-box .flowers-wrap .control {
   border-radius: 99em;
   
 }
-info-container .links-box .flowers-wrap .control .input {
+info-container .links-box .filter-tags .tag .input {
     position: absolute;
     opacity: 0;
     z-index: -10;
@@ -295,7 +313,7 @@ input[type=checkbox]{
   opacity: 0;
 }
 
-info-container .links-box .flowers-wrap .control__content {
+info-container .links-box .filter-tags .tag-content {
   
   display: inline-flex;
   align-items: center;

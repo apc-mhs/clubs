@@ -17,13 +17,17 @@ fetch("clubs.json")
       //console.log(club);
       
       out+= `" onclick = "showInfo('${club.club}')">`;
-   
       
       out += `
-         <div class="card_title">${club.club}</div>
-         <div class="card_icon"> <img src=${club.icon}></div>
-         <div class="tag_container">
-      `;
+         <div class="card_title">${club.club}</div>`
+      if(club.icon){
+         out+= `<div class="card_icon"> <img src=${club.icon}></div>`
+      }
+      else{
+         out += `<div class="card_icon"> <img src=https://fccps.schoology.com/sites/all/themes/schoology_theme/images/group-default.svg?0></div>`
+      }
+      out+=`<div class="tag_container">`;
+      
       if(club.subtags){
          const tagsList = club.subtags.split(", ");
          for(let tag of tagsList){

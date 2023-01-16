@@ -1,81 +1,75 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="styles.css">
-    
+    <title>MHS Clubs & Activities</title>
+    <meta property="og:image" content="https://mustang.rschoolteams.com/sites/mustang.rschoolteams.com/files/images/GMHS_LOGO.jpg">
+    <link rel="icon" href="https://mustang.rschoolteams.com/sites/mustang.rschoolteams.com/files/images/GMHS_LOGO.jpg">
 </head>
 <header>
-    <div class="bg-container">
-        <img src="https://i.redd.it/b3esnz5ra34y.jpg"/>
-      </div>
-      <div class="banner-title">
+    <div class="bg-container"></div>
+    <div class="banner-title">
         <p>Meridian Clubs & Activities</p>
-      </div>
+    </div>
 </header>
 <body>
-    <div class="flowers-wrap">
-        <label class="control">
+    <div class="filter-tags">
+        <label class="tag">
             <input type="checkbox" name="fl-colour" value="STEM" id="STEM" />
-            <span class="control__content">🔬 STEM</span>
+            <span class="tag-content">🔬 STEM</span>
         </label><br>
-        <label class="control">
+        <label class="tag">
             <input type="checkbox" name="fl-colour" value="Arts" id="Arts" />
-            <span class="control__content">🎭 Arts</span>
+            <span class="tag-content">🎭 Arts</span>
         </label><br>
-        <label class="control">
+        <label class="tag">
             <input type="checkbox" name="fl-colour" value="Humanities" id="Humanities" />
-            <span class="control__content">Humanities</span>
+            <span class="tag-content">🌐 Humanities</span>
         </label><br>
-        <label class="control">
+        <label class="tag">
             <input type="checkbox" name="fl-colour" value="Sports" id="Sports" />
-            <span class="control__content">Sports</span>
+            <span class="tag-content">🏀 Sports</span>
         </label><br>
-        <label class="control">
+        <label class="tag">
             <input type="checkbox" name="fl-colour" value="Games" id="Games" />
-            <span class="control__content">Games</span>
+            <span class="tag-content">🎲 Games</span>
         </label><br>
-        <label class="control">
+        <label class="tag">
             <input type="checkbox" name="fl-colour" value="Community" id="Community" />
-            <span class="control__content">Community</span>
+            <span class="tag-content">👥 Community</span>
         </label><br>
     </div>
     <div class="container">
-        <main class="grid" id ="grid">
-        </main>
+        <main class="grid" id ="grid"></main>
+
         <span class="overlay" id ="overlay"></span>
+        
         <div class="popup" id ="popup">
             <div class="info-container">
-                <div class=links-box">
-                    <div class="flowers-wrap">
-                        <label class="control">
-                            <input type="checkbox" name="fl-colour" value="STEM" id="STEM" />
-                            <span class="control__content">🔬 Food</span>
-                        </label><br>
-                        <label class="control">
-                            <input type="checkbox" name="fl-colour" value="Arts" id="Arts" />
-                            <span class="control__content">🎭 Study</span>
-                        </label><br>
-                        <label class="control">
-                            <input type="checkbox" name="fl-colour" value="Arts" id="Arts" />
-                            <span class="control__content">🎭 Volunteer</span>
-                        </label><br>
-                    </div>
-                    <div class="club-info">
+               
+                <div class="tag-container">
+                    <label class="tag">
+                        <span class="tag-content">🔬 Food</span>
+                    </label><br>
                     
-                        <div class="club-links">
-                            <p>
-                                Sign-in link: 
-                            </p>
-                        </div>
-                        <div class="club-schedule">
-                            <ul>
-                                <li>Tuesday [3:00PM-4:15:PM] @Library</li>
-                                <li>Wednesday [3:00PM-4:15:PM] @Library</li>
-                                <li>Thursday [3:00PM-4:15:PM] @Library</li>
-                            </ul>
-                        </div>
-                        
-                    </div>
                 </div>
+
+                <div class="club-info">
+                
+                    <div class="club-links">
+                        <p>
+                            Sign-in link: 
+                        </p>
+                    </div>
+                    <div class="club-schedule">
+                        <ul>
+                            <li>Tuesday [3:00PM-4:15:PM] @Library</li>
+                            <li>Wednesday [3:00PM-4:15:PM] @Library</li>
+                            <li>Thursday [3:00PM-4:15:PM] @Library</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
                 
                 <div class="club-description" id="club-description">
                     The Learning Lounge is a place where students can study, 
