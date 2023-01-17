@@ -273,6 +273,8 @@ input[type=checkbox]:checked + label{
   height: 90%;
 
   padding: 20px;
+
+  overflow-y: auto;
 }
 
 .overlay {
@@ -299,6 +301,7 @@ input[type=checkbox]:checked + label{
 
 .info-container #club-name{
   font-size:5vh;
+  margin-top: 5px;
 }
 
 .info-container p{
@@ -320,6 +323,14 @@ input[type=checkbox]:checked + label{
 .links-box{
   width: 28%;
   display: block;
+}
+#club-links{
+  font-size: 20px;
+  border: 3px solid;
+  border-radius: 10px;
+  padding: 15px;
+  display:inline-block;
+  
 }
 /*Tags Section*/
 info-container .links-box .filter-tags{
@@ -369,6 +380,7 @@ info-container .links-box .filter-tags .tag-content {
   word-wrap: break-word;
  
   font-size: 25px;
+
   
   border-radius: 10px;
   padding: 20px;
@@ -377,6 +389,8 @@ info-container .links-box .filter-tags .tag-content {
   border: 3px solid;
 
   margin-bottom: 20px;
+
+  margin-left: 10px;
 }
 #club-info{
   border: 3px solid;
@@ -407,14 +421,25 @@ li {
   margin:20px 0;
 }
 /*Gallery*/
-info-container .gallery .gallery-image{
-  height: 8rem;
-  width: 8rem;
+.gallery{
+  display: inline-block;
+}
+.gallery-image{
+
+  display: block;
+  
   object-fit: cover;
   border: 10px solid var(--boxes-background);
   outline: 2px solid #eee;
   margin: 0 0 2rem 0;
   border-radius: 5px;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  
+  
 }
 /*Picture Grid*/
 .row {
