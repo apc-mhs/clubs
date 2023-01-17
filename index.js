@@ -64,7 +64,13 @@ var showInfo = function(values){
   var name = document.getElementById("club-name");
   
   var found = findClubInfo(values);
-  description.innerHTML=found[0].description;
+  if(found[0].description){
+    description.innerHTML=found[0].description;
+  }
+  else{
+    description.innerHTML="More information to be added...";
+  }
+  
   sponsor.innerHTML = "Sponsor: "+ found[0].sponsor;
   location.innerHTML = "Room: " + found[0].location;
   date.innerHTML = "Meeting date: " + found[0].meetingDate;
