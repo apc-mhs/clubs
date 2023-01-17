@@ -68,7 +68,7 @@ var showInfo = function(values){
   sponsor.innerHTML = "Sponsor: "+ found[0].sponsor;
   location.innerHTML = "Room: " + found[0].location;
   date.innerHTML = "Meeting date: " + found[0].meetingDate;
-  name.innerHTML = found[0].club;
+  name.innerHTML = found[0].club.replace("$", "'");
   
   let out = "";
   if(found[0].maintags){

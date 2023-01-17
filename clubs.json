@@ -7,7 +7,8 @@
         "location": 328,
         "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-57585671_5319bd3d72044.jpg?1378136872",
         "maintags": "Arts",
-        "subtags": "Writing"
+        "subtags": "Writing, Drawing, Photography",
+        "description": "9 Muses is an student-run magazine. Students can contribute by submitting their artwork and writings. "
     },
     {
         "club": "Acapella Club",
@@ -17,7 +18,7 @@
         "location": "L12",
         "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-1469149463_5dc5851c6e010.png?1573225756",
         "maintags": "Arts",
-        "subtags": "Singing"
+        "subtags": "Singing, Performing"
     },
     {
         "club": "Anime Club",
@@ -27,8 +28,8 @@
         "location": 308,
         "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6344672938_633b0e430633c.png?1664814659",
         "maintags": "Arts",
-        "subtags": "Manga, Anime, Low committment",
-        "description": "Watch anime with your peers"
+        "subtags": "Anime, Manga",
+        "description": "The anime club allows you share your interest for anime with other peers. "
     },
     {
         "club": "Art Appreciation Club",
@@ -37,8 +38,7 @@
         "time": "Mustang Block",
         "location": 306,
         "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-6336877263_6336e52ebd49b.jpg?1664541998",
-        "maintags": "Arts",
-        "subtags": "Arts, Low committment"
+        "maintags": "Arts"
     },
     {
         "club": "ASL Club",
@@ -121,7 +121,7 @@
         "maintags": "Sports, Games"
     },
     {
-        "club": "Creative Filmaker's Club",
+        "club": "Creative Filmaker$s Club",
         "sponsor": "Brain Walsh",
         "meetingDate": "Thursdays",
         "time": "Mustang Block",
@@ -135,7 +135,8 @@
         "location": 505,
         "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-160201540_56cca0227f6a6.png?1456250914",
         "maintags": "STEM, Competition",
-        "subtags": "Cybersecurity, Competition"
+        "subtags": "Cybersecurity, Competition",
+        "description": "Cyberpatriots is a cybersecurity competition. Teams work togethor to find securitiy vulnerabilities wihin operating systems and networks. Food is provided at the competitions. Participation fee is $50+. "
     },
     {
         "club": "Entrepreneurs",
@@ -197,7 +198,7 @@
         "time": "Afterschool",
         "location": "TBD",
         "maintags": "Games, Competition",
-        "subtags": "Competition, Smash Bros"
+        "subtags": "Smash Bros"
     },
     {
         "club": "Girls Who Code",
@@ -252,7 +253,7 @@
         "location": 504,
         "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-809300581_5bb42756de3e1.jpeg?1538533206",
         "maintags": "Humanities, Volunteering, STEM",
-        "subtags": "Construction, Green-living, Volunteering"
+        "subtags": "Construction, Green-living"
     },
     {
         "club": "Hustang Math Team",
@@ -286,7 +287,7 @@
         "location": 421,
         "icon": "https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/grouplogos/logo-388760685_615dab224acf8.png?1633528610",
         "maintags": "STEM, Volunteering",
-        "subtags": "Teaching, Science, Volunteering"
+        "subtags": "Teaching, Science"
     },
     {
         "club": "Lasso",

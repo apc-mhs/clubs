@@ -7,6 +7,7 @@ fetch("clubs.json")
    let out = "";
    for(let club of clubs){
       //<div class="card_image"> <img src=${club.icon} /></div>
+      let name = club.club.replace("$", "'");
       out += `<div class="card" data-category="`;
       if(club.maintags){
          const tagsList = club.maintags.split(", ");
@@ -19,7 +20,7 @@ fetch("clubs.json")
       out+= `" onclick = "showInfo('${club.club}')">`;
       
       out += `
-         <div class="card_title">${club.club}</div>`
+         <div class="card_title">${name}</div>`
       if(club.icon){
          out+= `<div class="card_icon"> <img src=${club.icon}></div>`
       }
