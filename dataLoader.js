@@ -5,6 +5,7 @@ fetch("clubs.json")
 .then(function(clubs){
    let placeholder = document.querySelector("#grid");
    let out = "";
+
    for(let club of clubs){
       //<div class="card_image"> <img src=${club.icon} /></div>
       let name = club.club.replace("$", "'");
