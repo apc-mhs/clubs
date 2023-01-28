@@ -1,2 +1,4 @@
 .DS_Store
 clubs.json
+pages/
+dataLoader.js

@@ -1,3 +1,55 @@
+//Fetch Data
+let url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRV-lE8e4EztqGaDDJQKAy12Qgm4UcXJbtH0KI4Rkmygg7uiJiMzn-Jm_1sH2C0mkLL6PYyQmTb1mKL/pub?output=csv';
+let data = null;
+Papa.parse(url, {
+   header:true,
+	download: true,
+	complete: loadInfo
+});
+
+function loadInfo(results){
+   data = results.data;
+
+   let placeholder = document.querySelector("#grid");
+   let out = "";
+
+   $.each(data, function(i, club){
+      //console.log(club);
+      let name = club.Club.replace("$", "'");
+      out += `<div class="card" data-category="`;
+      if(club.Main_tags){
+         const tagsList = club.Main_tags.split(", ");
+         for(let tag of tagsList){
+            out+= `${tag}`;
+         }
+      }
+      
+      out+= `" onclick = "showInfo('${club.Club}')">`;
+      
+      out += `
+         <div class="card_title">${name}</div>`
+      if(club.Icon){
+         out+= `<div class="card_icon"> <img src=${club.Icon}></div>`
+      }
+      else{
+         out += `<div class="card_icon"> <img src=https://fccps.schoology.com/sites/all/themes/schoology_theme/images/group-default.svg?0></div>`
+      }
+      out+=`<div class="tag_container">`;
+      
+      if(club.Sub_tags){
+         const tagsList = club.Sub_tags.split(", ");
+         for(let tag of tagsList){
+            out += `<div class="card_tag">${tag}</div>`;
+         }
+      }
+      
+      out+= `</div></div>`;
+   });
+   placeholder.innerHTML = out;
+};
+
+//Tag Filtering
+
 var $filterCheckboxes = $('input[type="checkbox"]');
 var filterFunc = function() {
   
@@ -52,7 +104,7 @@ $filterCheckboxes.on('change', filterFunc);
 
 //Club Info Popup
 
-var showInfo = function(values){
+function showInfo(values){
   
   var modal = document.getElementById("popup");
   var overlay = document.getElementById("overlay");
@@ -71,14 +123,14 @@ var showInfo = function(values){
     description.innerHTML="More information to be added...";
   }
   
-  sponsor.innerHTML = "Sponsor: "+ found[0].sponsor;
-  location.innerHTML = "Room: " + found[0].location;
-  date.innerHTML = "Meeting date: " + found[0].meetingDate;
-  name.innerHTML = found[0].club.replace("$", "'");
+  sponsor.innerHTML = "Sponsor: "+ found[0].Sponsor;
+  location.innerHTML = "Room: " + found[0].Location;
+  date.innerHTML = "Meeting date: " + found[0].Meeting_date;
+  name.innerHTML = found[0].Club.replace("$", "'");
   
   let out = "";
-  if(found[0].maintags){
-    const tagsList = found[0].maintags.split(", ");
+  if(found[0].Main_tags){
+    const tagsList = found[0].Main_tags.split(", ");
     for(let tag of tagsList){
        out+= `
           <label class="tag">
@@ -103,15 +155,10 @@ var showInfo = function(values){
   overlay.style.display = "block";
 }
 
-var data = null;
-fetch("clubs.json")
-  .then((response)=> response.json())
-  .then((json)=>data=json);
-
 function findClubInfo(name){
   return data.filter(
     function(data){
-      return data.club == name;
+      return data.Club == name;
     }
   )
 }

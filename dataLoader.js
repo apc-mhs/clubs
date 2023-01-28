@@ -2,10 +2,10 @@ let url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRV-lE8e4EztqGaDDJQKA
 Papa.parse(url, {
    header:true,
 	download: true,
-	complete: showInfo
+	complete: loadInfo
 });
 
-function showInfo(results){
+function loadInfo(results){
    var data = results.data;
 
    let placeholder = document.querySelector("#grid");
