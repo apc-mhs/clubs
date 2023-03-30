@@ -14,7 +14,7 @@ function loadInfo(results){
    let out = "";
 
    $.each(data, function(i, club){
-      //console.log(club);
+
       let name = club.Club.replace("$", "'");
       out += `<div class="card" data-category="`;
       if(club.Main_tags){
@@ -36,8 +36,8 @@ function loadInfo(results){
       }
       out+=`<div class="tag_container">`;
       
-      if(club.Sub_tags){
-         const tagsList = club.Sub_tags.split(", ");
+      if(club.Main_tags){
+         const tagsList = club.Main_tags.split(", ");
          for(let tag of tagsList){
             out += `<div class="card_tag">${tag}</div>`;
          }
@@ -108,48 +108,23 @@ function showInfo(values){
   
   var modal = document.getElementById("popup");
   var overlay = document.getElementById("overlay");
-  var description = document.getElementById("club-description");
   var sponsor = document.getElementById("sponsor-info");
   var location = document.getElementById("location-info");
   var date = document.getElementById("date-info");
-  var tags = document.getElementById("tag-info");
+  var schoology = document.getElementById("schoology-info");
   var name = document.getElementById("club-name");
   
   var found = findClubInfo(values);
-  if(found[0].description){
-    description.innerHTML=found[0].description;
-  }
-  else{
-    description.innerHTML="More information to be added...";
-  }
   
   sponsor.innerHTML = "Sponsor: "+ found[0].Sponsor;
   location.innerHTML = "Room: " + found[0].Location;
   date.innerHTML = "Meeting date: " + found[0].Meeting_date;
+  //Set Schoology link
+  var link = schoology.querySelector("a");
+  link.getAttribute("href");
+  link.setAttribute("href", found[0].Link);
+  link.textContent = "Schoology";
   name.innerHTML = found[0].Club.replace("$", "'");
-  
-  let out = "";
-  if(found[0].Main_tags){
-    const tagsList = found[0].Main_tags.split(", ");
-    for(let tag of tagsList){
-       out+= `
-          <label class="tag">
-              <span class="tag-content">${tag}</span>
-          </label><br>
-        `;
-    }
-  }
-  if(found[0].subtags){
-    const tagsList = found[0].subtags.split(", ");
-    for(let tag of tagsList){
-       out+= `
-          <label class="tag">
-              <span class="tag-content">${tag}</span>
-          </label><br>
-        `;
-    }
-  }
-  tags.innerHTML = out;
   
   modal.style.display = "block";
   overlay.style.display = "block";
